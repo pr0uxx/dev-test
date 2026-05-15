@@ -1,4 +1,5 @@
-import { Item, ShiMart } from '@/shi-mart';
+import { describe, expect, it } from '@jest/globals';
+import { Item, ShiMart } from '../../app/shi-mart';
 
 describe('ShiMart', () => {
   it('VerifyItemBehaviors', () => {

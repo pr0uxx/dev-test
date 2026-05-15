@@ -1,20 +1,23 @@
 {
   "compilerOptions": {
     "module": "commonjs",
-    "target": "es5",
+    "target": "es6",
     "strict": true,
     "noImplicitAny": false,
     "sourceMap": true,
-    "baseUrl": "./",
+    "rootDir": "app",
+    "outDir": "dist",
     "resolveJsonModule": true,
     "esModuleInterop": true,
-    "paths": {
-      "@/*": [
-        "app/*"
-      ]
-    }
+    "types": [
+      "node"
+    ]
   },
   "exclude": [
+    "dist",
     "node_modules"
+  ],
+  "include": [
+    "app/**/*.ts"
   ]
 }

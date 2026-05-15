@@ -1,5 +1,6 @@
 import { expect } from 'chai';
-import { Item, ShiMart } from '@/shi-mart';
+import { describe, it } from 'mocha';
+import { Item, ShiMart } from '../../app/shi-mart';
 
 describe('ShiMart', () => {
   it('VerifyItemBehaviors', () => {
