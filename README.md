@@ -26,6 +26,7 @@ These are the existing rules that are run against items, this does not include "
 Feature Requirement:
   - We have recently signed a baker, who will provide freshly baked goods. This requires an update to our system.
   - We must support "Baked" items, which will degrade in Quality twice as fast as normal items
+  - Once the sell by date of "Baked" items has passed they will degrade twice as fast as the normally do.
 
 Feel free to make any changes to the UpdateQuality method and add any new code as long as everything
 still works correctly. However, do not alter the Item class or Items property.
